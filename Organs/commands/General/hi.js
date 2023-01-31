@@ -1,5 +1,5 @@
 module.exports = {
-    name: "hi",
+    name: "akida",
     alias: ["hello"],
     desc: "Tells hello",
     cool:3,
