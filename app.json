@@ -1,0 +1,52 @@
+{
+  "name": "Secktor-Md",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
+  "logo": "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device"],
+  "success_url": "/",
+  "stack": "container",
+"env": {
+  "PORT": {
+  "description": "Name of Bot Owner",
+      "value": "8000"
+  },
+  "PREFIX": {
+    "description": "Alive message for bot",
+     "value": "."
+    },
+   "MONGODB": {
+    "description": "THUMBNAIL for bot.",
+     "value": "mongodb://u0jaw5eaqato8w7xdf4y:mCb7I4JkG7v4XydpyPZ2@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/b4mjugjrpwrijlv?replicaSet=rs0"
+    },
+    "SESSION_ID": {
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+     "value": "NEZUKO"
+    },
+     "WEATHER_API": {
+    "description": "THUMBNAIL for bot.",
+     "value": "30786cd847214da5afd05455231601"
+    },
+    "GOOGLE_API": {
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+     "value": "AIzaSyDRGRcatA9mOeGqW2CFOqDPBxSC4Ui6DIU"
+    },
+     "MODS": {
+    "description": "THUMBNAIL for bot.",
+     "value": "34612538080"
+    },
+    "MAL_USERNAME": {
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+     "value": "PratyushOP"
+    },
+     "MAL_PASSWORD": {
+    "description": "THUMBNAIL for bot.",
+     "value": "8scv98gxDYHVBry"
+    }
+},
+  "formation": {
+      "worker": {
+          "quantity": 1,
+          "size": "free"
+      }
+  }
+}
