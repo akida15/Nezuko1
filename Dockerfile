@@ -13,4 +13,4 @@ COPY . /nezuko
 
 RUN yarn
 
-CMD ["node", "koyeb.js"]
+CMD ["node", "heart.js"]
