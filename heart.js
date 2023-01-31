@@ -349,5 +349,5 @@ app.get("/qr", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on PORT ${PORT}`);
+  console.log(`Server running on PORT 8000`);
 });
